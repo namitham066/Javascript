@@ -1,0 +1,21 @@
+<!--2. Write a program that asks the user to enter a number and keeps asking for the number until the user enters a number greater than 100. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+
+    <script>
+        let number = prompt("Enter a number:");
+        while (number <= 100) {
+            number = prompt("Please enter a number greater than 100:");
+        }
+        console.log("You entered a number greater than 100:", number);
+    </script>
+
+</body>
+</html>

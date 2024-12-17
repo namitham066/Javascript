@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+  background-color: #bab4b4;
+  /* color: #333; */
+  line-height: 1.6;
+ margin-top: 80px; 
+}
+
+
+
+nav ul {
+
+  gap: 30px; 
+  margin: 0; 
+  padding: 0;
+}
+
+
+nav ul li {
+  padding: 0;
+}
+
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+  color: #fd4766 !important;
+} 
+
+
+
+
+
+section {
+  scroll-margin-top: 80px; 
+}
+
+
+/* Responsive Design for navbar */
+@media (max-width: 768px) {
+  
+  nav ul {
+    flex-direction: column;
+    gap: 15px; 
+  }
+
+}
+
+
+/* about section */
+
+
+.content h2 {
+  font-size: 6rem;
+  /* margin-bottom: 20px; */
+  color: #0d0e0e;
+}
+
+.image img {
+  width: 100%;
+  max-width: 350px; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .image img {
+    max-width: 80%; 
+    margin-top: 20px; 
+  }
+
+  .content h2 {
+    font-size: 2rem; 
+  }
+
+  .content p {
+    font-size: 1rem; 
+  }
+}
+
+
+
+/* experience */
+
+
+
+.resume h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Resume Container */
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  
+}
+
+/* Job Section */
+.experience {
+
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+
+.company {
+  font-size: 1.1rem;
+  color: #151515;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-header h3 {
+    font-size: 1.2rem; 
+  }
+
+  .company {
+    font-size: 1rem;
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  .resume {
+    padding: 10px;
+  }
+  .company {
+    font-size: 0.9rem;
+  }
+
+  
+}
+
+/* Skills Section */
+.skills {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* project */
+
+.projects {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column; /*year and details on medium screens */
+    align-items: center;
+  }
+}
+
